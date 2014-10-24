@@ -1,6 +1,6 @@
 ## Restore
 
-* Clone this repo to your root
+* Clone this repo to your home directory
 * Run the `setup.sh` file
 
 ```sh
