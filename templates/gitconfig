@@ -1,6 +1,6 @@
 [user]
 	name = Tim Whitacre
-	email = tim@argyllstudios.com
+	email = tim@timw.co
 [github]
   user = twhitacre
 [hub]
@@ -42,26 +42,6 @@
   added = yellow
   changed = green
   untracked = blue
-[alias]
-  a       = add -u
-  aa      = add --all :/
-  ap      = add -u -p
-  b       = browse
-  c       = commit -v
-  co      = checkout
-  d       = diff
-  ds      = diff --staged
-  dw      = diff --color-words
-  po      = push origin head
-  pr      = "!f() { git fetch origin refs/pull/$1/head:pr/$1 && git co pr/$1; } ; f"
-  s       = status
-  sm      = submodule
-  smu     = submodule foreach git pull origin master
-  td      = merge --no-ff
-  up      = "!git fetch upstream && git rebase upstream/master"
-  w       = whatchanged --decorate
-  wp      = whatchanged --decorate -p
-  l = log --pretty='format:%C(yellow)%h %C(blue)%ad %C(reset)%s%C(red)%d %C(green)%an%C(reset), %C(cyan)%ar' --date=short
 [ghi]
 	token = !security find-internet-password -a twhitacre -s github.com -l 'ghi token' -w
 [format]
