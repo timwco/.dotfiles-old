@@ -1,3 +1,10 @@
+## Setup
+
+```sh
+brew install reattach-to-user-namespace
+```
+
+
 ## Restore
 
 * Clone this repo to your home directory
