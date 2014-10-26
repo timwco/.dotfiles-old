@@ -12,6 +12,7 @@ alias e='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
 alias c='clear'
+alias tmk='tmux kill-session -t Tim'
 
 # Git Shortcuts
 alias gp="git push origin"
@@ -41,12 +42,13 @@ DISABLE_AUTO_TITLE="true"
 #
 # Example format:
 #   plugins=(rails git textmate ruby)
-plugins=(rbenv)
+plugins=()
 
 source $ZSH/oh-my-zsh.sh
 
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
-export PATH=$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH
+export PATH=$HOME/.rbenv/bin:$PATH
+eval "$(rbenv init -)"
 
 # Disable auto-correct
 unsetopt correct_all
