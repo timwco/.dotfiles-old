@@ -13,6 +13,7 @@ alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
 alias c='clear'
 alias tmk='tmux kill-session -t Tim'
+alias do_personal='ssh root@104.131.24.10'
 
 # Git Shortcuts
 alias gp="git push origin"
@@ -23,6 +24,8 @@ alias gs="git status"
 alias gr="git remote -v"
 alias gb="git checkout -b"
 alias gba="git branch --all"
+alias gch="git checkout"
+alias gm="git merge"
 
 # GHI Commands
 alias assign_issue="sh ~/Shell\ Scripts/tiy-assignment.sh"
