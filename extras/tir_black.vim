@@ -3,7 +3,7 @@
 " adds 256 color console support
 " changed WildMenu color to be the same as PMenuSel
 
-set background=dark
+set background=#333233
 hi clear
 
 if exists("syntax_on")
