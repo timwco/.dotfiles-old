@@ -28,6 +28,9 @@ Bundle 'pbrisbin/html-template-syntax'
 Bundle 'junegunn/vim-easy-align'
 Bundle 'scrooloose/nerdcommenter'
 
+" Vim Airline
+Plugin 'bling/vim-airline'
+
 filetype plugin indent on
 
 syntax on
@@ -69,13 +72,7 @@ set wildignore+=*/cabal-dev/*,*/node_modules/*,*/bower_components/*,*.so,*.o,*.h
 
 " Use 256 color schemes
 set t_Co=256
-try
-  colorscheme tir_black
-  " set background=light
-  " colorscheme solarized
-catch
-  colorscheme pablo
-endtry
+colorscheme tim 
 
 " Allow backspacing over auto-indents
 set backspace=indent,eol,start
