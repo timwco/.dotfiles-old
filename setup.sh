@@ -27,16 +27,14 @@ for file in $files; do
     ln -s $templates/$file ~/.$file
 done
 
-# Copy over Tim's theme
+# Copy over Tim's ZSH  theme
 echo "\nCopying Tim's ZSH Theme"
 mkdir -p ~/.oh-my-zsh/themes
 ln -sf $extras/tim.zsh-theme ~/.oh-my-zsh/themes/tim.zsh-theme
 
-# Copy over TR_Black
-echo "\nCopying Over Vim Theme"
+# Copy over Vim themes and syntax helpers
+echo "\nCopying Over Vim Theme & Helpers"
 mkdir -p ~/.vim/colors
-ln -sf $extras/tir_black.vim ~/.vim/colors/tir_black.vim
-ln -sf $extras/bubblegum.vim ~/.vim/colors/bubblegum.vim
 ln -sf $extras/tim.vim ~/.vim/colors/tim.vim
 
 # Copy over Sublime Text 3 Settings
