@@ -2,11 +2,12 @@
 	"caret_style": "phase",
 	"color_scheme": "Packages/Predawn/predawn.tmTheme",
 	"findreplace_small": true,
-	"font_size": 20,
+	"font_size": 19,
 	"highlight_line": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"HTML-CSS-JS Prettify"
 	],
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,

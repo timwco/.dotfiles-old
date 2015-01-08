@@ -9,6 +9,7 @@ ZSH_THEME="tim"
 
 # Aliases
 alias e='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias ew='/usr/local/bin/wstorm'
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
 alias c='clear'
@@ -17,7 +18,7 @@ alias do_personal='ssh root@104.131.24.10'
 
 # Git Shortcuts
 alias gp="git push origin"
-alias gc="git commit -am"
+alias gc="git commit"
 alias gpull="git pull origin"
 alias ga="git add ."
 alias gs="git status"
