@@ -9,6 +9,7 @@ ZSH_THEME="tim"
 
 # Aliases
 alias e='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias v='vi'
 alias ew='/usr/local/bin/wstorm'
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
@@ -76,3 +77,4 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+eval "$(homework setup -)"

@@ -27,6 +27,7 @@ Bundle 'pbrisbin/html-template-syntax'
 " Text manipulation
 Bundle 'junegunn/vim-easy-align'
 Bundle 'scrooloose/nerdcommenter'
+Plugin 'mattn/emmet-vim'
 
 " Vim Airline
 Plugin 'bling/vim-airline'
