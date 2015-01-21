@@ -42,6 +42,7 @@ syntax on
 " File type extenstions
 au BufRead,BufNewFile *.hamlc set ft=haml
 au BufRead,BufNewFile *.thor set filetype=ruby
+au BufRead,BufNewFile *.md set filetype=markdown
 
 " UTF-8 everywhere
 set encoding=utf-8
