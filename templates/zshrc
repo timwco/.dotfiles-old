@@ -63,9 +63,9 @@ COMPLETION_WAITING_DOTS="true"
 
 # Customize to your needs...
 ZSH_THEME_GIT_PROMPT_PREFIX="(%{$fg[magenta]%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX=")%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%}!"
-ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[green]%}?"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[blue]%)%{$fg[green]%}!"
+ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[blue]%)%{$fg[green]%}?"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 # Always work in a tmux session if tmux is installed
