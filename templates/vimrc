@@ -31,6 +31,7 @@ Plugin 'mattn/emmet-vim'
 
 " Vim Airline
 Plugin 'bling/vim-airline'
+let g:airline_powerline_fonts = 1
 
 " Vim JavaScript Plugin
 Plugin 'jelera/vim-javascript-syntax'
