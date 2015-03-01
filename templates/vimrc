@@ -27,7 +27,6 @@ Bundle 'pbrisbin/html-template-syntax'
 " Text manipulation
 Bundle 'junegunn/vim-easy-align'
 Bundle 'scrooloose/nerdcommenter'
-Plugin 'mattn/emmet-vim'
 
 " Vim Airline
 Plugin 'bling/vim-airline'
@@ -35,6 +34,12 @@ let g:airline_powerline_fonts = 1
 
 " Vim JavaScript Plugin
 Plugin 'jelera/vim-javascript-syntax'
+
+" Vim Snippets
+Plugin 'SirVer/ultisnips'
+
+" YCM
+Plugin 'Valloric/YouCompleteMe'
 
 filetype plugin indent on
 
@@ -156,3 +161,12 @@ nnoremap k gk
 " Indent
 vnoremap < <gv
 vnoremap > >gv
+
+" Remove Highlight after Search
+nnoremap <esc> :noh<return><esc>
+
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<c-b>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"

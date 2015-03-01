@@ -37,6 +37,12 @@ echo "\nCopying Over Vim Theme & Helpers"
 mkdir -p ~/.vim/colors
 ln -sf $extras/tim.vim ~/.vim/colors/tim.vim
 
+# Copy over Vim Snippets
+echo "\nCopying Over Vim Shippets"
+mkdir -p ~/.vim/UltiSnips
+cp -a $extras/UltiSnips/. ~/.vim/UltiSnips/ 
+ 
+
 # Copy over Sublime Text 3 Settings
 echo "\nCopying Over Sublime Text 3 Info"
 ln -sf $extras/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings

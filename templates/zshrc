@@ -9,7 +9,7 @@ ZSH_THEME="tim"
 
 # Aliases
 alias e='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-alias v='vi'
+alias v='vim'
 alias ew='/usr/local/bin/wstorm'
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
