@@ -83,7 +83,7 @@ set wildignore+=*/cabal-dev/*,*/node_modules/*,*/bower_components/*,*.so,*.o,*.h
 
 " Use 256 color schemes
 set t_Co=256
-colorscheme tim 
+colorscheme ir_black
 
 " Allow backspacing over auto-indents
 set backspace=indent,eol,start

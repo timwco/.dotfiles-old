@@ -35,7 +35,9 @@ ln -sf $extras/tim.zsh-theme ~/.oh-my-zsh/themes/tim.zsh-theme
 # Copy over Vim themes and syntax helpers
 echo "\nCopying Over Vim Theme & Helpers"
 mkdir -p ~/.vim/colors
-ln -sf $extras/tim.vim ~/.vim/colors/tim.vim
+ln -sf $extras/VimThemes/tim.vim ~/.vim/colors/tim.vim
+ln -sf $extras/VimThemes/itg_flat.vim ~/.vim/colors/itg_flat.vim
+ln -sf $extras/VimThemes/ir_black.vim ~/.vim/colors/ir_black.vim
 
 # Copy over Vim Snippets
 echo "\nCopying Over Vim Shippets"
