@@ -18,6 +18,7 @@ alias c='clear'
 alias tmk='tmux kill-session -t Tim'
 alias do_personal='ssh root@104.131.24.10'
 alias iron='~/TIY/Cohorts/Cohort\ 3/'
+alias mysql='/usr/local/mysql/bin/mysql'
 
 # Git Shortcuts
 alias gp="git push origin"
