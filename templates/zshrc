@@ -17,7 +17,7 @@ alias ohmyzsh="vi ~/.oh-my-zsh"
 alias c='clear'
 alias tmk='tmux kill-session -t Tim'
 alias do_personal='ssh root@104.131.24.10'
-alias iron='~/TIY/Cohorts/Cohort\ 3/'
+alias iron='~/TIY/Cohorts/Cohort\ 4/'
 alias mysql='/usr/local/mysql/bin/mysql'
 
 # Git Shortcuts
