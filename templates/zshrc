@@ -32,6 +32,10 @@ alias gba="git branch --all"
 alias gch="git checkout"
 alias gm="git merge"
 
+# Custom Deploy Git Commands
+alias gstage="git push staging master"
+alias gprod="git push production master"
+
 # GHI Commands
 alias assign_issue="sh ~/Shell\ Scripts/tiy-assignment.sh"
 
@@ -81,3 +85,7 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%)"
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 eval "$(homework setup -)"
+
+### Go Setup
+export GOPATH=$HOME/Go
+export PATH=$GOPATH/bin:$PATH

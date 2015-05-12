@@ -1,8 +1,8 @@
 {
 	"caret_style": "phase",
-	"color_scheme": "Packages/Behave Color Scheme/Behave.tmTheme",
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
 	"findreplace_small": true,
-	"font_size": 14,
+	"font_size": 21,
 	"highlight_line": true,
 	"hot_exit": false,
 	"ignored_packages":
@@ -17,7 +17,7 @@
 	"spell_check": true,
 	"tab_size": 2,
 	"tabs_small": true,
-	"theme": "Spacegray.sublime-theme",
+	"theme": "predawn.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true
 }
