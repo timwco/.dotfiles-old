@@ -6,10 +6,10 @@
 
 #  Variables
 dir=~/.dotfiles
-templates=$dir/templates                    
+templates=$dir/templates
 extras=$dir/extras
-olddir=~/.dotfiles_old             
-files="bashrc gitconfig tmux.conf zshrc vimrc"
+olddir=~/.dotfiles_old
+files="bashrc gitconfig tmux.conf zshrc vimrc spacemacs"
 
 # create dotfiles_old in homedir
 echo "\nCreating $olddir for backup of any existing dotfiles in ~"
@@ -19,7 +19,7 @@ mkdir -p $olddir
 echo "\nChanging to the $templates directory"
 cd $templates
 
-# move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks 
+# move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks
 for file in $files; do
     echo "\nMoving any existing dotfiles from ~ to $olddir"
     mv ~/.$file $olddir/
