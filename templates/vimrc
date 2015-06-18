@@ -118,6 +118,7 @@ map <leader>g :Ack
 map <leader>x :wq<cr>
 map <leader>s :w<cr>
 map <leader>q :q<cr>
+map <leader>p :set paste<cr>
 
 map <leader><up> :CoqUndo<cr>
 map <leader><left> :CoqToCursor<cr>
